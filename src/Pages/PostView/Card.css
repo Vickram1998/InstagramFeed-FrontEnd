@@ -1,0 +1,147 @@
+.post-view{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 45px;
+}
+.instagram-profile-card{
+    width: 552px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card .card-header{
+    display: flex;
+}
+.card-header-name{
+    font-weight: bold;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.card-header-place{
+    color: grey;
+    margin-left: 9px;
+    margin-bottom: 5px;
+}
+.card-header-ellipsis{
+    margin-left: auto;
+    margin-right: 10px;
+    align-self: center;
+}
+.card-picture img{
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
+}
+.card-action{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.card-action span{
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.likes{
+    margin-left: 10px;
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.description{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.card-action .like-icon i:active{
+    transform: scale(1.5);
+}
+.card-header-dp{
+        width: 40px;
+        height: 39px;
+        border-radius: 50%;
+        overflow: hidden;
+
+}
+.edit-btn{
+    margin-left: 50px;
+    visibility: hidden;
+    cursor: pointer;
+}
+.description:hover .edit-btn{
+    visibility: visible;
+}
+.likes span{
+    float: right;
+}
+
+.comment-form{
+    margin-top: 10px;
+    margin-left: -40px;
+    border-top:1px solid #ccc;
+    margin-top: 18px;
+    margin-left: -38px;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+    width: 486px;
+
+}
+.comment-form input{
+    width:420px;
+    height: 30px;
+    border: none;
+    border-radius: 18px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.submit-btn{
+    position: absolute;
+    top:687px;
+    left: 841px;
+    width: 45px;
+    height: 35px;
+    background: #E7A09E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 29px;
+    opacity: 1;
+    border: #E7A09E;
+
+}
+.comment-item{
+font: normal normal medium 20px/28px Avenir;
+color: #5F5A5A;
+opacity: 1;
+margin-left: 50px;
+}
+.more-btn{
+    margin-top: -20px;
+    float: right;
+    border: none;
+    margin-right: 10px;
+    font: normal normal medium 20px/28px Avenir;
+color: #1066e7;
+opacity: 1;
+margin-left: 50px;
+cursor:pointer;
+}
+.hide-btn{
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: -20px;
+    float: right;
+    border: none;
+}
+.card-header{
+    display: flex;
+}
+.like-icon{
+    margin-top: 5px;
+}
