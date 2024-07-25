@@ -1,12 +1,9 @@
 
-Memory updated
-Here’s a sample README file for your Instagram Feed front-end project:
-
-Instagram Feed Front-End
+Instagram Feed Front-End:
 Overview
 This is a front-end application for an Instagram-like feed, built using React. It features routing for viewing, creating, and managing posts.
 
-Features
+Features:
 Main Layout: Provides the basic structure and layout for the application.
 Posts Page: Displays a list of posts.
 Create Post Page: Allows users to create new posts.
